@@ -19,10 +19,9 @@ class personagem {
 		}
 	}
 }
-	
-function main(){	
-	let heroi = new personagem("Matheus", 22);
-	heroi.imprimirAtaque("mago");
-}
 
-main()
+// Main
+(function () {	
+	let heroi = new personagem("M4SC-321", 22);
+	heroi.imprimirAtaque("ninja");
+})();
